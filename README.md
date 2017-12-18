@@ -1,8 +1,8 @@
 # Image_retrieval_demo: a demo for image retrieval
 
-This project is forked from [artificio](https://github.com/ankonzoid/artificio). I change the codes and use caffe instand of keras and tensorflow which he use.
+This project is forked from [artificio](https://github.com/ankonzoid/artificio). I change the codes and use caffe instead of keras and tensorflow which he use.
 
-# Image retrieval using transfer learning
+## Image retrieval using transfer learning
 
 Given a set of database images, we take the trained image classification AlexNet, remove its last layers, and use the dissected model to convert our raw images into feature vectors for similarity comparison to produce similar image recommendations. No training is needed as we are re-using the low-level weight layers in the AlexNet network. A schematic for our implementation is shown here:
 
